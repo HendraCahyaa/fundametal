@@ -124,7 +124,7 @@ console.log(Math.max(4, 3, 10, 11, 13, 20, 100, 250)); //menghasilkan angka terb
 console.log(Math.min(4, 3, 10, 11, 13, 20, 100, 250)); //menghasilkan angka terkecil dari sekumpulan angka
 
 console.log(Math.abs(-300)); //menghilangkan tanda negatif
-console.log(Math.random()); //menghilangkan angka acak antara 0 dan 1
+console.log(Math.random()); //menghasilkan angka acak antara 0 dan 1
 console.log(Math.floor(Math.random() * 100 + 1)); // angka random 1 - 100
 
 const min:number = 12;
