@@ -161,6 +161,11 @@ do{
     count++;
 }while(count <= 5);
 
+//perbedaan while loop dengan do while loop adalah :
+//while loop : melakukan pengecekan diawal dan jika pengecekan bernilai false maka code block tidak akan dicetak
+//do while loop : melakukan pengecekan di akhir dan jika pengecekan bernilai false maka code block akan dicetak satu kali 
+
+
 // =========== BREAK ============
 //untuk menghentikan loop
 
