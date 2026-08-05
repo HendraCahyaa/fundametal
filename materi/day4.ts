@@ -39,6 +39,7 @@ console.log(arrStadium.lastIndexOf('GBK'));
 // .unshift : menambahkan item baru di index awal
 // .pop : menghapus item di index terakhir
 // .shift : menghapus item di index pertama
+// .map : digunakan untuk membuat array baru dengan hasil dari memanggil fungsi tertentu pada setiap elemen array
 
 const arrAnimals = ['Kucing','Anjing','Kelinci'];
 arrAnimals.push('Ikan');
@@ -88,14 +89,14 @@ for (let item of fruits){
 
 //Expresion function
 
-    const message = function(){
-        //code block
-    }
+    // const message = function(){
+    //     //code block
+    // }
 //Arrow function
 
-    const welcome = () =>{
-        //code block
-    }
+    // const welcome = () =>{
+    //     //code block
+    // }
 
 
     const buah = ['Apel','Mangga','Pisang'];
