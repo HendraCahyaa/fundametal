@@ -1,6 +1,6 @@
 //LATIHAN 1 -> CEK ANGKA GENAP ATAU GANJIL
-const num1:number = 6;
-console.log(num1 % 2 === 0 ? `${num1} adalah angka genap` : `${num1} adalah angka ganjil`);
+const num6:number = 6;
+console.log(num6 % 2 === 0 ? `${num1} adalah angka genap` : `${num1} adalah angka ganjil`);
 
 //LATIHAN 2 -> CEK ANGKA PRIMA ATAU BUKAN ANGKA PRIMA
 const prima:number = 7;
@@ -22,12 +22,12 @@ if(prima < 2){
 }
 
 //LATIHAN 3 -> MENJUMLAHKAN ANGKA 1 SAMPAI N
-const num2:number = 5;
+const ang2:number = 5;
 let hasil:number = 0;
-for(let i = 1; i <= num2;i++){
+for(let i = 1; i <= ang2;i++){
     hasil = hasil + i;
     
-}console.log(`jumlah angka dari 1 sampai ${num2} adalah : ${hasil}`);
+}console.log(`jumlah angka dari 1 sampai ${ang2} adalah : ${hasil}`);
 
 
 //LATIHAN 4 -> MENGHITUNG FAKTORIAL DARI SEBUAH ANGKA
