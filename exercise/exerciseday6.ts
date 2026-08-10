@@ -128,6 +128,8 @@ trx.addtoCart(susu,2);
 console.log(trx.checkOut());
 
 
+//Latihan 1
+
 interface Student{
     name:string,
     email:string,
