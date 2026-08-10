@@ -59,6 +59,7 @@ function calculateStudentData(student:Student[]){
     const averageAge = totalAge / student.length;
     
     const averageScore = totalScore / student.length;
+
     return {age:{high : highestAge, lowest : lowestAge, average :averageAge.toFixed(2)},
         score:{
         high : highestScore, lowest : lowestScore, average : averageScore.toFixed(2)},
@@ -82,6 +83,7 @@ class Product{
 // const mie = new Product("Indomie", 3500);
 //konsep code :
 // new product ("Indomie", 3500) -> constructor ("Indomie", 3500) this.name = "Indomie" this.price = 3500 -> object selesai dibuat
+
 
 
 class Transaction{
@@ -117,12 +119,10 @@ class Transaction{
 
 const mie = new Product("Indomie",3500);
 const susu = new Product("Susu",8000);
-const minyak = new Product("Bimoli",12000);
 
 const trx = new Transaction();
 
 trx.addtoCart(mie,5);
 trx.addtoCart(susu,2);
-trx.addtoCart(minyak,3);
 
 console.log(trx.checkOut());
