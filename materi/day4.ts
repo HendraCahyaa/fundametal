@@ -54,7 +54,7 @@ console.log(arrStudent);
 arrStudent.shift();
 console.log(arrStudent);
 
-// .spilce menambahkan atau menghapus item array
+// .splice menambahkan atau menghapus item array
 // .splice(indexawal, jumlah item yang dihapus,new item1,new item2,....)
 const arrBrandLaptop = ['Asus','Acer','Lenovo','Dell'];
 arrBrandLaptop.splice(2,1);
